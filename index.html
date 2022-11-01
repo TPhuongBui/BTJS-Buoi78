@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    
+    <!-- BÀI TẬP -->
+    <form class="pt-5">
+        <div class="form-group">
+          <h2>Nhập số n</h2>
+          <input type="number" class="form-control" id="nhapSoN">
+          <button type="button" id="btnThem" class="btn btn-danger" >Thêm số</button>
+        </div>
+    </form>
+
+    <h2 class="pt-3">Tổng số dương</h2>
+    <form>
+        <button type="button" id="btnTongSoDuong" class="btn btn-info">Tính tổng</button>
+        <p id="txtTongSoDuong" class="alert alert-primary"></p>
+    </form>
+
+    <h2 class="pt-3">Đếm số dương</h2>
+    <form>
+        <button type="button" id="btnDemSoDuong" class="btn btn-info">Đếm số dương</button>
+        <p id="txtDemSoDuong" class="alert alert-primary"></p>
+    </form>
+
+    <h2 class="pt-3">Tìm số nhỏ nhất</h2>
+    <form>
+        <button type="button" id="btnSoNhoNhat" class="btn btn-info">Tìm số nhỏ nhất</button>
+        <p id="txtSoNhoNhat" class="alert alert-primary"></p>
+    </form>
+
+    <h2 class="pt-3">Tìm số dương nhỏ nhất</h2>
+    <form>
+        <button type="button" id="btnSoDuongNhoNhat" class="btn btn-info">Tìm số dương nhỏ nhất</button>
+        <p id="txtSoDuongNhoNhat" class="alert alert-primary"></p>
+    </form>
+
+    <h2 class="pt-3">Tìm số chẵn cuối cùng</h2>
+    <form>
+        <button type="button" id="btnSoChanCuoi" class="btn btn-info">Tìm số chẵn</button>
+        <p id="txtSoChanCuoi" class="alert alert-primary"></p>
+    </form>
+
+    <h2 class="pt-3">Đổi chỗ</h2>
+    <div>
+        <form>
+            <p>Nhập vị trí số 1</p>
+            <input type="number" class="form-control" id="viTri1">     
+        </form>
+
+        <form>
+            <p>Nhập vị trí số 2</p>
+            <input type="number" class="form-control" id="viTri2">     
+        </form>
+
+        <form>
+            <button type="button" id="btnDoiCho" class="btn btn-info">Đổi chỗ</button>
+            <p id="txtDoiCho" class="alert alert-primary"></p>
+        </form>
+    </div>
+
+    <h2 class="pt-3">Sắp xếp tăng dần</h2>
+    <form>
+        <button type="button" id="btnSapXep" class="btn btn-info">Sắp xếp</button>
+        <p id="txtSapXep" class="alert alert-primary"></p>
+    </form>
+
+    <h2 class="pt-3">Tìm số nguyên tố đầu tiên</h2>
+    <form>
+        <button type="button" id="btnSoNTDau" class="btn btn-info">Tìm số nguyên tố</button>
+        <p id="txtSoNTDau" class="alert alert-primary"></p>
+    </form>
+
+
+    <h2 class="pt-3">Đếm số nguyên</h2>
+    <form>
+        <div class="form-group">
+            <p>Nhập số n</p>
+            <input type="number" class="form-control" id="nhapSo">
+            <button type="button" id="btnInput" class="btn btn-danger" >Thêm số</button>
+            <button type="button" id="btnDemSoNguyen" class="btn btn-info">Đếm số nguyên</button>
+            <p id="txtDemSoNguyen" class="alert alert-primary"></p>
+        </div>
+    </form>
+
+
+    <h2 class="pt-3">So sánh số lượng số âm và số dương</h2>
+    <form>
+        <button type="button" id="btnSoSanh" class="btn btn-info">So sánh</button>
+        <p id="txtSoSanh" class="alert alert-primary"></p>
+    </form>
+
+    
+
+    
+    
+
+
+
+
+        <!-- JS BÀI TẬP -->
+        <script src="./js/baitap.js"></script>
+
+        <!-- JS BOOTSTRAP -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"></script>
+</body>
+</html>
